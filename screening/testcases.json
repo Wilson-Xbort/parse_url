@@ -1,0 +1,93 @@
+{
+	"testcases": [
+		{
+			"input": "http://example.com/xxx?id=1234&data_type=article&user=john",
+			"output": {
+				"id": "1234",
+				"data_type": "article",
+				"user": "john"
+			}
+		},
+		{
+			"input": "https://bbs.csdn.net/forums/FreeZone?page=3",
+			"output": {
+				"page": "3"
+			}
+		},
+		{
+			"input": "https://duckduckgo.com/?q=c+programming+language&t=h_&ia=web",
+			"output": {
+				"q": "c+programming+language",
+				"t": "h_",
+				"ia": "web"
+			}
+		},
+		{
+			"input": "https://duckduckgo.com/?q=c",
+			"output": {
+				"q": "c"
+			}
+		},
+		{
+			"input": "https://duckduckgo.com/?===",
+			"output": {}
+		},
+		{
+			"input": "https://duckduckgo.com/?q==",
+			"output": {}
+		},
+		{
+			"input": "https://duckduckgo.com/?==q",
+			"output": {}
+		},
+		{
+			"input": "https://duckduckgo.com/?q=c+programming+language&t=h_&ia=web&",
+			"output": {
+				"q": "c+programming+language",
+				"t": "h_",
+				"ia": "web"
+			}
+		},
+		{
+			"input": "https://duckduckgo.com/?q=c+programming+language&t=h_&ia=web&a=",
+			"output": {
+				"q": "c+programming+language",
+				"t": "h_",
+				"ia": "web"
+			}
+		},
+		{
+			"input": "https://duckduckgo.com/?q=c+programming+language&t=h_&ia=web&=a",
+			"output": {
+				"q": "c+programming+language",
+				"t": "h_",
+				"ia": "web"
+			}
+		},
+		{
+			"input": "https://duckduckgo.com/?q=c+programming+language&t=h_&ia=web& =a",
+			"output": {
+				"q": "c+programming+language",
+				"t": "h_",
+				"ia": "web"
+			}
+		},
+		{
+			"input": "https://duckduckgo.com/?q=c+programming+language&t=h_&ia=web& a = b",
+			"output": {
+				"q": "c+programming+language",
+				"t": "h_",
+				"ia": "web",
+				"a": "b"
+			}
+		},
+		{
+			"input": "https://duckduckgo.com/?q=c+programming+language&t=h_&ia=web& a = ",
+			"output": {
+				"q": "c+programming+language",
+				"t": "h_",
+				"ia": "web"
+			}
+		}
+	]
+}

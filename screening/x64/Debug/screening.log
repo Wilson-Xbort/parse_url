@@ -1,0 +1,8 @@
+﻿  main.c
+  parse.c
+C:\Users\Administrator\source\repos\screening\screening\parse.c(36,38): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Administrator\source\repos\screening\screening\parse.c(81,22): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Administrator\source\repos\screening\screening\parse.c(91,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Administrator\source\repos\screening\screening\parse.c(175,6): warning C4013: “free”未定义；假设外部返回 int
+  正在生成代码...
+  screening.vcxproj -> C:\Users\Administrator\source\repos\screening\x64\Debug\screening.exe
